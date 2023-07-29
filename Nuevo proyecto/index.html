@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,11 +18,13 @@
         /></a>
       </div>
       <nav id="main-nav">
+        <i class="fa-solid fa-bars"></i>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <a href="#home"><li>Home</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="#work"><li>Work</li></a>
+          <a href="#contact"><li>Contact</li></a>
+          
         </ul>
       </nav>
     </header>
@@ -30,7 +33,7 @@
       <h1>Travel developer</h1>
       <h2>Designer &amp; Developer</h2>
       <a href="#about">
-        <img src="./imagen/flecha-hacia-abajo-para-navegar.png" alt="flecha" 
+        <img src="./imagen/circle-chevron-down-solid.svg" alt="flecha" 
       /></a>
     </section>
 
@@ -100,5 +103,9 @@
     <footer>
       <p>&copy; 2023 ErikNaRV</p>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
