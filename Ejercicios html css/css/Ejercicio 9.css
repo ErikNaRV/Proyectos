@@ -1,0 +1,53 @@
+h1{
+    color:darkcyan
+}
+h3{
+    color:blue;
+}
+
+#Primera{
+    color:red;
+}
+#Segunda{
+    color:rgb(236, 208, 46);
+}
+
+a{
+    color: rgb(247, 37, 37);
+}
+
+#Tercero{
+color: blue;
+text-decoration-color:red;
+}
+
+#Cuarto,#morado{
+    color:purple;
+    
+}
+#amarillo{
+    color:rgb(236, 208, 46);
+    
+}
+#rojo{
+    color:rgb(231, 29, 39);
+    
+}
+#verde,#linka{
+    color:rgb(29, 146, 39);
+    
+}
+#todo{
+    color:rgb(70, 105, 4);
+}
+table {
+    border-collapse: collapse;
+    width: 30%;
+    border: 1px solid black; /* Borde para la tabla */
+}
+th, td {
+    border: 1px solid black; /* Borde para las celdas */
+    padding: 8px;
+    text-align: left;
+}
+

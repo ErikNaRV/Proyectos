@@ -1,0 +1,20 @@
+
+
+
+/* Estilo para el estado normal de los enlaces */
+ a {
+    color: #CC0000; /* Color del texto en rojo #CC0000 */
+    text-decoration: none; /* Quitamos el subrayado predeterminado de los enlaces */
+  }
+  
+  /* Estilo cuando el usuario pasa el ratón sobre los enlaces */
+ a:hover {
+    background-color: #CC0000; /* Color de fondo en rojo #CC0000 */
+    color: #FFF; /* Color del texto en blanco #FFF */
+  }
+  
+  /* Estilo para los enlaces visitados */
+   a:visited {
+    color: #CCC; /* Color del texto en gris claro #CCC */
+  }
+  

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registro de Usuario</h2>
+  <form>
+    <label for="nombre">Nombre del Usuario:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br>
+
+    <label for="contrasena">Contraseña del Usuario:</label><br>
+    <input type="password" id="contrasena" name="contrasena" required><br>
+
+    <label for="edad">Edad del Usuario:</label><br>
+    <input type="number" id="edad" name="edad" required><br>
+
+    <label for="fecha_nacimiento">Fecha de Nacimiento del Usuario:</label><br>
+    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+
+    <label>Sexo:</label><br>
+    <input type="radio" id="sexo_masculino" name="sexo" value="masculino" required>
+    <label for="sexo_masculino">Masculino</label><br>
+    <input type="radio" id="sexo_femenino" name="sexo" value="femenino" required>
+    <label for="sexo_femenino">Femenino</label><br>
+    <input type="radio" id="sexo_otro" name="sexo" value="otro" required>
+    <label for="sexo_otro">Otro</label><br>
+
+    <label for="pais">País:</label><br>
+    
+    <select id="pais" name="pais" required>
+      <option value="Ecuador">Ecuador</option>
+      <option value="Venezuela">Venezuela</option>
+      <option value="Peru">Peru</option>
+      <option value="Argentina">Argentina</option>
+      <option value="Colombia">Colombia</option>
+
+    </select><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+  </form>
+</body>
+</html>
