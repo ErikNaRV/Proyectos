@@ -2,7 +2,11 @@
 dato.*/
 const mensaje = prompt("Ingrese un dato");
 
+
 const tipoDeDato = (dato) => {
+    // Reemplazar comas por puntos para manejar decimales con coma
+    dato = dato.replace(",", ".");
+
     const esNumero = !isNaN(parseFloat(dato)) && isFinite(dato);
     const esBooleano = dato === 'true' || dato === 'false';
 
@@ -20,3 +24,21 @@ const tipoDeDato = (dato) => {
 };
 
 tipoDeDato(mensaje);
+
+
+
+//console.log(typeof mensaje);
+
+tipoDeDato(mensaje);
+
+
+function procesarDato() {
+    // Obtén el valor del input
+    var dato = document.getElementById("miInput").value;
+
+    // Realiza alguna acción con el dato
+    alert("Dato ingresado: " + typeof dato);
+}
+
+
+

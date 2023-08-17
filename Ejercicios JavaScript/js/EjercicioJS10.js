@@ -12,9 +12,10 @@ let alreves = (frase) => {
 
 alreves(frase);
 
+/*------------------------------------------------------------------------*/ 
 
-const reverseWord = (word) => {
-    const charactersArray = word.split('');
+const reverseWord = (inputword) => {
+    const charactersArray = inputword.split('');
     const reversedArray = charactersArray.reverse();
     const reversedWord = reversedArray.join('');
     return reversedWord;
@@ -25,3 +26,12 @@ const inputWord = prompt("Ingrese una palabra");
 const reversedInput = reverseWord(inputWord);
 console.log("Palabra original:", inputWord);
 console.log("Palabra invertida:", reversedInput);
+
+/*------------------------------------------------------------------------*/ 
+const inputWord1 = prompt("Ingrese una palabra");
+
+const reversedWord = (inputWord1) => inputWord1.split('').reverse().join('');
+let reversed2=reversedWord(inputWord1);
+alert(reversed2);
+
+   
